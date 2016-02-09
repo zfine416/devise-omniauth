@@ -7,5 +7,6 @@ Setup:
 * Add necessary environment vairiables to local_env file
 * Facebook ex:
 * FACEBOOK_KEY: "123456789"
-# FACEBOOK_SECRET: "987654321"
+* FACEBOOK_SECRET: "987654321"
+<br>
 <tt>rake doc:app</tt>.
