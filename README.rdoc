@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
+Basic application with standard Login/Registration using Devise and Facebook omniauth. Additionally omniauth (Google, Twitter, Github or ect) can easily be added. 
+Setup:
+* Create a local_env file
+* Add newly created file to .gitignore, so it is not tracked
+* Add necessary environment vairiables to local_env file
+* Facebook ex:
+* FACEBOOK_KEY: "123456789"
+# FACEBOOK_SECRET: "987654321"
 <tt>rake doc:app</tt>.
