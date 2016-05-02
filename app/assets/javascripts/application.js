@@ -15,3 +15,8 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+$('.btn1').on('click', function(event) {
+	$(this).css('color', 'green');
+})
+

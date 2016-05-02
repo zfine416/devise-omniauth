@@ -34,9 +34,17 @@ gem 'omniauth-facebook'
 # pry for debugging
 gem 'pry'
 
+# Geokit provides functionality for location oriented rails apps
+# gem 'geokit-rails'
+gem 'geocoder'
+
+gem 'simple_form'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem "faker"
 
 # Use Unicorn as the app server
 # gem 'unicorn'
