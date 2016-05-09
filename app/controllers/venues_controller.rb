@@ -21,6 +21,10 @@ class VenuesController < ApplicationController
   def edit
   end
 
+  def search
+    params[:location]
+  end
+
   # POST /venues
   # POST /venues.json
   def create

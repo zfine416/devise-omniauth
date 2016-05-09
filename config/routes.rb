@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :venues
+  devise_for :venues, controllers: { sessions: "venues/sessions", registrations: "venues/registrations" }
   # , controllers: {sessions: "venues/sessions",registrations: "venues/registrations"}
   devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks", sessions: "users/sessions",registrations: "users/registrations"}
   # The priority is based upon order of creation: first created -> highest priority.
@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   root 'users#index'
 
+  get 'venues/search' => 'venues#search'
   #   get 'products/:id' => 'catalog#view'
 
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
